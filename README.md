@@ -7,8 +7,11 @@ Included is the PowerPoint presentation with an introduction to LaTeX, and some 
 
 ## How to Follow Along
 
-I suggest asking all participants to download and install a LaTeX compiler on their computer, or use an online compiler. I prefer to use [Overleaf]{https://www.overleaf.com} personally. If participants want to use Overleaf, they are encouraged to make an account before the workshop in order to upload the materials beforehand. 
+I suggest asking all participants to download and install a LaTeX compiler on their computer, or use an online compiler. I prefer to use [Overleaf](https://www.overleaf.com) personally. If participants want to use Overleaf, they are encouraged to make an account before the workshop in order to upload the materials beforehand. 
 
-Other options include installing a local distribution from [The LaTeX Project]{https://www.latex-project.org/get/#tex-distributions}. 
+Other options include installing a local distribution from [The LaTeX Project](https://www.latex-project.org/get/#tex-distributions). 
 
+
+#### Notes
+The image is a free stock image, from [Pexels](https://www.pexels.com).
 
