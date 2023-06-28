@@ -3,47 +3,62 @@
 \usepackage{amsmath}
 \usepackage{hyperref}
 \usepackage{graphicx}
-\usepackage{url} 
-\usepackage{setspace}
-\usepackage{siunitx}
-
+\usepackage{lipsum}  
 
 \begin{document}
 
 \title{My First \LaTeX}
 \author{Lipi Gupta}
-\affiliation{NERSC, Lawrence Berkeley National Lab \\ Berkeley, CA}
+%\affiliation{NERSC, Lawrence Berkeley National Lab \\ Berkeley, CA}
 \date{\today{}}
+%\begin{abstract}
+%    \lipsum[1]
+%\end{abstract}
 \maketitle
 
 %% Abstract %%
 
 \section{Introduction}
 
-Introduce your project, which may require a figure and some equations. 
-
 %% Subsections %%
+\lipsum[1-2]
+
 
 %% Figure %%
+\begin{figure}[h!]
+    \centering
+    \includegraphics{sleepy_kitty.jpg}
+    \caption{This is a nice picture of a sleeping cat.}
+    \label{fig:my_label}
+\end{figure}
 
 %% Equations %%
 
 \section{Methods}
 
-You might have a few lists here:
-
+\lipsum[3-4]
 %% Lists %%
 
 \section{Results}
 
-Graphs, Graphs, and Tables!
-
+\lipsum[5]
 %% Tables %%
+\begin{table}[]
+    \centering
+    \caption{Caption}
+    \begin{tabular}{cccccc}
+         a & c & 4 & 4 & 3 & 5 \\
+         b & d & b & d & b & d \\
+         b & d & b & d & b & d
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+
 
 \section{Discussion}
 
 We're done! But now we have to cite our references.
-
+\lipsum[6]
 %% The Bibliography %%
 
 \end{document}
